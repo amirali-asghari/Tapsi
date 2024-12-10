@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url(../vazir-font-v16.1.0/Vazir.woff2);
+}
+@font-face {
+  font-family: vazir-bold;
+  src: url(../vazir-font-v16.1.0/Vazir-Bold.woff2);
+}
+@font-face {
+  font-family: vazir-thin;
+  src: url(../vazir-font-v16.1.0/Vazir-Thin.woff2);
+}
+@font-face {
+  font-family: vazir-light;
+  src: url(../vazir-font-v16.1.0/Vazir-Light.woff2);
+}
+@font-face {
+  font-family: vazir-med;
+  src: url(../vazir-font-v16.1.0/Vazir-Medium.woff2);
+}
+main header nav {
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  padding: 15px 150px;
+  align-items: baseline;
+  background-color: #fff;
+  z-index: 1;
+}
+main header nav div {
+  padding-right: 300px;
+  display: flex;
+  align-items: baseline;
+}
+main header nav div button {
+  height: 40px;
+  padding: 7px 40px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: vazir-med;
+}
+main header nav div p {
+  padding: 0 15px;
+  font-family: vazir-light;
+  color: #545454;
+  font-size: 13px;
+}
+main header .hero {
+  position: absolute;
+  top: 60px;
+}
+main header .hero .left-part img {
+  width: 30%;
+  display: flex;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+main header .hero .right-part {
+  width: 530px;
+  height: 405px;
+  background-color: rgba(26, 33, 62, 0.6352941176);
+  border-radius: 25px;
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  padding: 40px 30px;
+}
+main header .hero .right-part h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: vazir-bold;
+}
+main header .hero .right-part p {
+  font-size: 24px;
+  color: #fff;
+  font-family: vazir;
+}
+main header .hero .right-part .don-box {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main header .hero .right-part .don-box #a-center {
+  margin-right: 25%;
+}
+main header .hero .right-part .don-box .fff {
+  background-color: #fff;
+  border-radius: 10px;
+}
+main header .hero .right-part .don-box .fff .p1 {
+  color: black;
+}
+main header .hero .right-part .don-box a {
+  margin-top: 10px;
+  width: 224px;
+  height: 56px;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(26, 33, 62, 0.7960784314);
+}
+main header .hero .right-part .don-box a p {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
