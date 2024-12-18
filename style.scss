@@ -74,6 +74,9 @@ main {
         .hero {
             position: absolute;
             top: 60px;
+            img{
+                width: 100vw;
+            }
 
             .left-part img {
                 width: 30%;
